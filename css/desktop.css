@@ -49,31 +49,16 @@
         width: calc((100%-24px*3)/4);
     }
     
-    .advantages .chapter::before {
-        content: '';
-        display: block;
-        height: 112px;
-        margin-bottom: 8px;
-        background-color: var(--footer-logo-part);
+    .icon-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        height: 112px; 
+        background: #F4F4FD;
         border-radius: 4px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    
-    .advantages .chapter:nth-child(1)::before {
-        background-image: url(../images/antenna.svg);
-    }
-    
-    .advantages .chapter:nth-child(2)::before {
-        background-image: url(../images/clock.svg);
-    }
-    
-    .advantages .chapter:nth-child(3)::before {
-        background-image: url(../images/diagram.svg);
-    }
-    
-    .advantages .chapter:nth-child(4)::before {
-        background-image: url(../images/astronaut.svg);
+        background-color: var(--footer-logo-part); 
+         margin-bottom: 8px;
     }
 
     /* Works */

@@ -7,6 +7,17 @@
         padding-top: 0;
         padding-bottom: 0;
     }
+    .icon-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        height: 112px; 
+        background: #F4F4FD;
+        border-radius: 4px;
+        background-color: var(--footer-logo-part); 
+         margin-bottom: 8px;
+    }
 
     /* Header */
 

@@ -7,6 +7,17 @@
         font-size: 26px;
     }
 
+    .icon-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        height: 112px; 
+        background: #F4F4FD;
+        border-radius: 4px;
+        background-color: var(--footer-logo-part); 
+         margin-bottom: 8px;
+    }
     .modal-policy {
         font-size: 8px;
         letter-spacing: 0.02em;
@@ -134,6 +145,7 @@
     .skill:not(:last-child) {
         margin-bottom: 72px;
     }
+    
 
     .advantages .section-item {
         font-weight: 700;
