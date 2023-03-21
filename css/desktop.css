@@ -1,0 +1,182 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1158px;
+    }
+
+    /* Header */
+
+    .changeble-menu {
+        margin-left: 76px;
+    }
+
+    .address-nav {
+        flex-direction: row;
+    }
+    
+    .address-nav .chapter:last-child {
+        margin-left: 40px;
+    }
+
+    /* Main HERO-section */
+
+    .section.hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
+        max-width: 1440px;
+        height: 600px;
+    }
+
+    /* Advantages */
+
+    .section.odds {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    /* .skill {
+        margin-bottom: 0;
+    } */
+
+    .advantages .chapter:not(:last-child) {
+        margin-right: 24px;
+    }
+    
+    /* .advantages .chapter + .chapter {
+      margin-left: 24px;
+    } */
+    
+    .advantages .chapter {
+        width: calc((100%-24px*3)/4);
+    }
+    
+    .advantages .chapter::before {
+        content: '';
+        display: block;
+        height: 112px;
+        margin-bottom: 8px;
+        background-color: var(--footer-logo-part);
+        border-radius: 4px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .advantages .chapter:nth-child(1)::before {
+        background-image: url(../images/antenna.svg);
+    }
+    
+    .advantages .chapter:nth-child(2)::before {
+        background-image: url(../images/clock.svg);
+    }
+    
+    .advantages .chapter:nth-child(3)::before {
+        background-image: url(../images/diagram.svg);
+    }
+    
+    .advantages .chapter:nth-child(4)::before {
+        background-image: url(../images/astronaut.svg);
+    }
+
+    /* Works */
+
+    .section.work {
+        display: block;
+    }
+
+    /* Team */
+
+    .section.tint {
+        max-width: 1440px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .team-nav .chapter:not(:last-child) {
+        margin-right: 24px;
+    }
+
+    /* Customers */
+
+    .section.customers {
+        padding: 120px 0;
+    }
+
+    .client {
+        margin-bottom: 0;
+        width: calc((100% - (24px * 5))/6);
+    }
+
+    .client:last-child {
+        margin-right: 0;
+    }
+
+    /* Footer */
+
+    .foot-logo-end {
+        margin: 0 120px 0 0;
+    }
+
+    .foot-social-links {
+        margin: 0 80px 0 0;
+    }
+
+    .subscribe-label input {
+        min-width: 264px;
+    }
+
+    /* Portfolio */
+
+    .section.options {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+
+    .btn-list.list {
+        justify-content: center;
+        margin-bottom: 72px;
+    }
+
+    .cards-nav .chapter:not(:nth-child(3n)) {
+        margin-right: 24px;
+    }
+
+    .cards-nav .chapter:not(:nth-last-child(-n+3)) {
+        margin-bottom: 48px;
+    }
+
+    /* Portfolio's galary */
+
+    .card-product {
+        display: block;
+    }
+
+
+    /* Background image */
+
+    @media (min-device-pixel-ratio: 1),
+    (-webkit-min-device-pixel-ratio: 1),
+    (-o-min-device-pixel-ratio: 1/1),
+    (min-resolution: 96dpi),
+    (min-resolution: 1dppx) {
+        .section.hero {
+            background-image: linear-gradient(to right,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/hero-desktop-1x.jpg);
+            background-color: var(--secondary-background-color);
+        }
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (-o-min-device-pixel-ratio: 2/1),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .section.hero {
+            background-image: linear-gradient(to right,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/hero-desktop-2x.jpg);
+            background-color: var(--secondary-background-color);
+        }
+    }
+}

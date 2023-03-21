@@ -1,0 +1,146 @@
+@media screen and (max-width: 479px) {
+    .modal {
+        width: calc(100% - (15px * 2));
+    }
+
+    .ping-mob.mobil {
+        font-size: 26px;
+    }
+
+    .modal-policy {
+        font-size: 8px;
+        letter-spacing: 0.02em;
+    }
+
+    .chapter-social:not(:last-child) {
+        margin-right: 28px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        width: 428px;
+    }
+
+    
+}
+
+@media screen and (max-width: 767px) {
+    .changeble-menu,
+    .contact-address {
+        display: none;
+    }
+
+    .mob-list .chapter:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    .mobile-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* Mobile menu */
+
+    .chapter.menu-mail {
+        margin-bottom: 48px;
+    }
+
+    .chapter.menu-tel {
+        margin-bottom: 40px;
+    }
+
+    /* Team */
+
+    .team-nav .chapter:not(:last-child) {
+        margin-bottom: 72px;
+    }
+
+    .team-nav .chapter {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Customers */
+
+    .client:nth-child(2n) {
+        margin-right: 0;
+    }
+    
+    .client:nth-last-child(-n+2) {
+        margin-bottom: 0;
+    }
+
+    /* Footer */
+
+    .foot-info {
+        flex-direction: column;
+    }
+
+    .subscribe-label {
+        margin-bottom: 16px;
+    }
+
+    .subscribe-field {
+        flex-direction: column;
+    }
+
+    /* Portfolio */
+
+    .img-product img {
+        width: 100%;
+        height: 280px;
+    }
+
+    .cards-nav .chapter {
+        margin: 0 0 48px;
+        width: 100%;
+    }
+
+    /* Background image */
+
+    @media (min-device-pixel-ratio: 1),
+    (-webkit-min-device-pixel-ratio: 1),
+    (-o-min-device-pixel-ratio: 1/1),
+    (min-resolution: 96dpi),
+    (min-resolution: 1dppx) {
+        .section.hero {
+            background-image: linear-gradient(to right,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/hero-mobile-1x.jpg);
+            background-color: var(--secondary-background-color);
+        }
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (-o-min-device-pixel-ratio: 2/1),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .section.hero {
+            background-image: linear-gradient(to right,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/hero-mobile-2x.jpg);
+            background-color: var(--secondary-background-color);
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+
+    .skill:not(:last-child) {
+        margin-bottom: 72px;
+    }
+
+    .advantages .section-item {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+    
+}
