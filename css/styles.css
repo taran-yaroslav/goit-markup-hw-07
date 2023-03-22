@@ -21,8 +21,11 @@
 }
 
 /* Body */
+ body{
+    scroll-behavior:smooth;
+ }
 
-body {
+ body {
     margin: 0;
     padding: 0;
     background-color: var(--primary-background-color);
