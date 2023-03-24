@@ -129,12 +129,12 @@
 
     /* Main HERO-section */
 
-    .section.hero {
+    /* .section.hero { */
         
-        max-width: 768px;
-        height: 436px;
+        /* max-width: 768px; */
+        /* height: 436px; */
         /* background-image: url(../images/hero-tablet-2x.jpg); */
-    }
+    /* } */
 
     .container .main-title {
         margin: 0 auto 36px;
