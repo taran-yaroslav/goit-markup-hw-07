@@ -8,6 +8,9 @@
         padding-bottom: 0;
     }
    
+    .section-item {
+        text-align: left; 
+    }
     
 
     /* Header */
@@ -111,6 +114,7 @@
 
     .address-nav {
         display: flex;
+        
         flex-direction: column;
     }
 
@@ -126,6 +130,7 @@
     /* Main HERO-section */
 
     .section.hero {
+        
         max-width: 768px;
         height: 436px;
         /* background-image: url(../images/hero-tablet-2x.jpg); */
@@ -150,6 +155,7 @@
 
     .advantages.list {
         display: flex;
+        
     }
 
     /* Team */
@@ -190,6 +196,7 @@
     /* Portfolio */
 
     .cards-nav.list {
+        
         display: flex;
         flex-wrap: wrap;
     }
@@ -209,6 +216,7 @@
     /* Advantages */
 
     .advantages.list {
+        
         flex-wrap: wrap;
     }
 
@@ -222,17 +230,20 @@
     
     .chapter.skill:nth-last-child(-n+2) {
         margin-bottom: 0;
+        
     }
 
     /* Team */
 
     .team-nav.list {
         flex-wrap: wrap;
+        
     }
 
     .team-nav .chapter + .chapter:not(:nth-child(2n+1)) {
         margin-left: 24px;
         margin-right: auto;
+        
     }
     
     .team-nav .chapter:not(:nth-last-child(-n+2)) {
@@ -296,11 +307,13 @@
     /* Portfolio */
 
     .section.options {
+        
         padding-top: 64px;
         padding-bottom: 96px;
     }
 
     .btn-list.list {
+        
         justify-content: center;
         margin-bottom: 64px;
     }
