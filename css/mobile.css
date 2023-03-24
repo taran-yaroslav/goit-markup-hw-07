@@ -135,14 +135,15 @@
     .skill:not(:last-child) {
         margin-bottom: 72px;
     }
-    
-
+    .section-item {
+    text-align: center;
+    }
     .advantages .section-item {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        text-align: center;
+        /* text-align: center; */
     }
     
 }
