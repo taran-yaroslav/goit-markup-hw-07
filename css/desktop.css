@@ -18,7 +18,9 @@
     }
 
     /* Main HERO-section */
-
+    .trek {
+        text-align: center;
+    }
     .section.hero {
         padding-top: 188px;
         padding-bottom: 188px;

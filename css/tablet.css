@@ -12,7 +12,9 @@
         text-align: left; 
     }
     
-
+    .trek {
+        text-align: center;
+    }
     /* Header */
 
     .btn-menu-burger {
